@@ -1,0 +1,249 @@
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+    background: rgb(233, 77, 77);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header{
+    color: aliceblue;
+    background-color: rgb(233, 77, 77);
+}
+
+#logo{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 2rem;
+    margin-top: 8px;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    display: block;
+    color: aliceblue;
+    padding: 15px 10px;
+}
+
+#menu li a:hover{
+    background-color: rgb(155, 47, 47);
+}
+
+#banner{
+    background: url('../img/banner.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+.title{
+    border-radius: 20px;
+}
+
+.lead{
+    border-radius: 20px;
+}
+
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.banner-title p.lead{
+color: aliceblue;
+background: rgba(233, 77, 77, 0.7);
+padding: 10px;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color: rgb(233, 77, 77);
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials{
+    color: aliceblue;
+    background: url('../img/post1.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+#testimonials img{
+    height: 200px;
+    border-radius: 10%;
+}
+
+#testimonials:before{
+    background: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3{
+    font-size: 1.4rem;
+}
+
+.news-post h3 a{
+    color: rgb(233, 77, 77);
+}
+
+.post-date{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+a.readmore{
+    font-size: 15px;
+    color: rgb(233, 77, 77);
+}
+
+a.readmore:after{
+    content: "\f152";
+    font-family: FontAwesome;
+    padding-left: 5px;
+}
+
+#footer-sidebar{
+    color: aliceblue;
+    background: #34495e;
+    padding: 20px 0;
+}
+
+.footer-widget h4:after{
+    content: "";
+    background: aliceblue;
+    display: block;
+    width: 70px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-widget a{
+    color: aliceblue;
+}
+
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news li{
+    margin-bottom: 3px;
+}
+
+.latest-news li:before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+#footer{
+    background: #2c3e50;
+    color: aliceblue;
+    padding: 10px 0;
+}
+
+#social-icons{
+    list-style: none;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+#social-icons li{
+    padding: 5px;
+    display: inline-block;
+}
+
+#social-icons li a{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+@media (max-width: 992px){
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .banner-title{
+        padding-top: 0;
+    }
+    .banner-title h1{
+        font-size: 1.7rem;
+    }
+}
